@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "Basic",
+    "price": "$15/month",
+    "description": "Perfect for beginners who want to stay active.",
+    "features": [
+      "Access to gym equipment",
+      "1 personal training session",
+      "Locker room access",
+      "Free WiFi",
+      "Basic fitness assessment",
+      "Access to cardio zone",
+      "Mobile app access"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard",
+    "price": "$30/month",
+    "popular": true,
+    "duration": "",
+    "description": "Great for regular fitness enthusiasts.",
+    "features": [
+      "Full gym access",
+      "5 personal training sessions",
+      "Group classes (Yoga, Cardio, Zumba)",
+      "Locker + shower access",
+      "Diet plan guidance",
+      "Progress tracking",
+      "Access to strength training zone",
+      "Priority class booking"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium",
+    "price": "$50/month",
+    "description": "Best for serious fitness lovers.",
+    "features": [
+      "24/7 gym access",
+      "Unlimited personal training",
+      "All group classes included",
+      "Private locker",
+      "Custom diet & workout plan",
+      "Sauna & steam room access",
+      "Recovery & stretching zone",
+      "Body composition analysis",
+      "Guest pass (2 per month)",
+      "Priority support"
+    ]
+  }
+]

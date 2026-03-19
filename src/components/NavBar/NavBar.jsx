@@ -1,5 +1,6 @@
 import { Menu, X } from 'lucide-react';
 import React, { useState } from 'react';
+import Links from './Links';
 
 const navData = [
   {
@@ -31,7 +32,9 @@ const navData = [
 
 const NavBar = () => {
     const [open, setOpen] = useState(false)
-    const links = navData.map(route=> <li className='px-4 hover:bg-red-400'><a href={route.path}>{route.name}</a></li>)
+    const links = navData.map((route, index)=> <Links
+    key={index}
+    route={route}></Links>)
     
     return (
         <nav className='flex justify-between mx-6 my-3'>
